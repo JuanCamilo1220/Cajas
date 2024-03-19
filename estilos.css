@@ -1,0 +1,152 @@
+body{
+    font-family: 'Times New Roman';
+    background-color: bisque;
+}
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    border: 0px black solid;
+    margin: 10px;
+}
+.frase1,.frase2,.frase3{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(to left,  red, purple, blue);
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 15px;
+    text-align: center;
+}
+.frase1:hover,.frase2:hover,.frase3:hover{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(to left, blue, purple, red);
+    color: white;
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+.frase4,.frase5,.frase6{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(to left,  rgb(0, 225, 255), #00ff0d, rgb(221, 255, 0));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 15px;
+    text-align: center;
+}
+.frase4:hover,.frase5:hover,.frase6:hover{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(to left, rgb(0, 225, 255), #00ff0d, rgb(221, 255, 0));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+.frase7,.frase8,.frase9{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(to left,  rgb(255, 0, 85), #ff00e1, rgb(183, 0, 255));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 15px;
+    text-align: center;
+}
+.frase7:hover,.frase8:hover,.frase9:hover{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(to left, rgb(183, 0, 255), #ff00e1, rgb(225, 0, 85));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+@media (max-width:1280px){
+.caja{
+    flex-direction: column;
+    align-items: center;
+}
+.frase1,.frase2,.frase3{
+    width: 400px;
+    height: 125px;
+    background: linear-gradient(to left,  red, purple, blue);
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 15px;
+    text-align: center;
+}
+.frase1:hover,.frase2:hover,.frase3:hover{
+    width: 400px;
+    height: 125px;
+    background: linear-gradient(to left, blue, purple, red);
+    color: white;
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+.frase4,.frase5,.frase6{
+    width: 400px;
+    height: 125px;
+    background: linear-gradient(to left,  rgb(0, 225, 255), #00ff0d, rgb(221, 255, 0));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 15px;
+    text-align: center;
+}
+.frase4:hover,.frase5:hover,.frase6:hover{
+    width: 400px;
+    height: 125px;
+    background: linear-gradient(to left, rgb(0, 225, 255), #00ff0d, rgb(221, 255, 0));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+.frase7,.frase8,.frase9{
+    width: 400px;
+    height: 125px;
+    background: linear-gradient(to left,  rgb(255, 0, 85), #ff00e1, rgb(183, 0, 255));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 15px;
+    text-align: center;
+}
+.frase7:hover,.frase8:hover,.frase9:hover{
+    width: 400px;
+    height: 125px;
+    background: linear-gradient(to left, rgb(183, 0, 255), #ff00e1, rgb(225, 0, 85));
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 5px solid rgb(153, 0, 87);
+    padding: 10px;
+    text-align: center;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+}
