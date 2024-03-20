@@ -84,7 +84,7 @@ h1{
     align-items: center;
 }
 .frase1,.frase2,.frase3{
-    width: 375px;
+    width: 200px;
     height: 125px;
     background: linear-gradient(to left,  red, purple, blue);
     color: rgb(255, 255, 255);
@@ -94,7 +94,7 @@ h1{
     text-align: center;
 }
 .frase1:hover,.frase2:hover,.frase3:hover{
-    width: 375px;
+    width: 200px;
     height: 125px;
     background: linear-gradient(to left, blue, purple, red);
     color: white;
@@ -106,7 +106,7 @@ h1{
     border-radius: 15px;
 }
 .frase4,.frase5,.frase6{
-    width: 375px;
+    width: 200px;
     height: 125px;
     background: linear-gradient(to left,  rgb(0, 225, 255), #00ff0d, rgb(221, 255, 0));
     color: rgb(0, 0, 0);
@@ -116,7 +116,7 @@ h1{
     text-align: center;
 }
 .frase4:hover,.frase5:hover,.frase6:hover{
-    width: 375px;
+    width: 200px;
     height: 125px;
     background: linear-gradient(to left, rgb(0, 225, 255), #00ff0d, rgb(221, 255, 0));
     color: rgb(0, 0, 0);
@@ -128,7 +128,7 @@ h1{
     border-radius: 15px;
 }
 .frase7,.frase8,.frase9{
-    width: 375px;
+    width: 200px;
     height: 125px;
     background: linear-gradient(to left,  rgb(255, 0, 85), #ff00e1, rgb(183, 0, 255));
     color: rgb(0, 0, 0);
@@ -138,7 +138,7 @@ h1{
     text-align: center;
 }
 .frase7:hover,.frase8:hover,.frase9:hover{
-    width: 375px;
+    width: 200px;
     height: 125px;
     background: linear-gradient(to left, rgb(183, 0, 255), #ff00e1, rgb(225, 0, 85));
     color: rgb(0, 0, 0);
